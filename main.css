@@ -19,7 +19,7 @@ header {
 }
 section {
     min-height: 200px;
-    padding 6% 0;
+    padding: 6% 0;
     background-color: #bbbbbb;
     display: flex;
     flex-direction: column;
