@@ -3,7 +3,8 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    color: #012340;
     font-size: 20px;
     text-align: center;
     line-height: 1.5;
@@ -15,7 +16,11 @@ nav, footer {
     min-height: 50px;
 }
 header {
+    font-family: 'Proza Libre', sans-serif;
     padding: 12% 0;
+}
+h2, h3 {
+    font-family: 'Proza Libre', sans-serif;
 }
 section {
     min-height: 200px;
@@ -61,6 +66,14 @@ li {
     color: #111111;
     align-self: center;
 }
+#clsBtn {
+    display: none;
+}
+#menu {
+    display: none;
+    background-color: #012340;
+    color: #818181;
+}
 .hidden {
     display: none;
 }
@@ -97,7 +110,7 @@ li {
         z-index: 1;
         top: 0;
         left: 0;
-        background-color: #111;
+        background-color: #012340;
         overflow-x: hidden;
         padding-top: 60px;
         transition: 0.5s;
@@ -123,6 +136,12 @@ li {
     #main {
         transition: margin-left .5s;
         padding: 20px;
+    }
+    #clsBtn {
+        display: block;
+    }
+    #menu {
+        display: block;
     }
 
 }
