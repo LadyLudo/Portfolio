@@ -31,3 +31,54 @@ input[name="message"] {
     height: 100px;
     width: 300px;
 }
+
+.contactLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.screenshot {
+    height: 220px;
+    width: 220px;
+    border: solid;
+    flex-basis: 220px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+.projectInfo {
+    display: flex;
+    flex-direction: column;
+}
+p {
+    align-self: center;
+}
+@media only screen and (min-width: 768px) {
+    .contactLinks {
+        flex-direction: column;
+    }
+    .contactInfo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    li {
+        list-style-type: none;
+    }
+
+}
+@media only screen and (min-width: 992px) {
+
+    .projectInfo {
+        flex-direction: row;
+        justify-content: center;
+    }
+    div:nth-child(even) .projectInfo {
+        flex-direction: row-reverse;
+    }
+    .projectDescription {
+        flex-basis: 500px;
+        flex-grow: 0;
+        flex-shrink: 0;
+    }
+
+}

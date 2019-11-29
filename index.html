@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+          content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio</title>
     <link rel="stylesheet" href="main.css">
@@ -21,21 +21,38 @@
             <h2>Projects</h2>
             <div>
                 <h3>Project 1</h3>
+                <div class="projectInfo">
+                    <p class="screenshot">Screenshot</p>
+                    <p class="projectDescription">Title, description, and more: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore </p>
+                </div>
+            </div>
+            <div>
+                <h3>Project 2</h3>
+                <div class="projectInfo">
+                    <p class="screenshot">Screenshot</p>
+                    <p class="projectDescription">Title, description, and more: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+                </div>
             </div>
         </section>
         <section>
             <h2>Contact</h2>
-            <form>
-                <input type="text" name="contactName" value="Contact Name">
-                <input type="text" name="email" value="Email">
-                <br>
-                Message:
-                <br>
-                <input type="text" name="message" value="">
-                <br>
-                <input type="submit" value="Submit">
-            </form>
-
+            <div class="contactInfo">
+                <form>
+                    <input type="text" name="contactName" value="Contact Name">
+                    <input type="text" name="email" value="Email">
+                    <br>
+                    Message:
+                    <br>
+                    <input type="text" name="message" value="">
+                    <br>
+                    <input type="submit" value="Submit">
+                </form>
+                <ul class="contactLinks">
+                    <li><a href="url">Email</a></li>
+                    <li><a href="url">LinkedIn</a></li>
+                    <li><a href="url">GitHub</a></li>
+                </ul>
+            </div>
         </section>
     </main>
     <footer role="contentinfo">
