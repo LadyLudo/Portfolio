@@ -9,8 +9,14 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <nav role="navigation">Navigation</nav>
-    <main role="main">
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">About Me</a>
+        <a href="#">Projects</a>
+        <a href="#">Contact</a>
+    </div>
+    <span onclick="openNav()">open</span>
+    <div id="main">
         <header role="banner">
             <h1>Header</h1>
         </header>
@@ -54,11 +60,12 @@
                 </ul>
             </div>
         </section>
-    </main>
+    </div>
     <footer role="contentinfo">
         <p>footer</p>
     </footer>
 
 
 </body>
+<script src="main.js"></script>
 </html>
