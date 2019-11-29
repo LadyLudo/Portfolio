@@ -22,6 +22,10 @@ header {
 h2, h3 {
     font-family: 'Proza Libre', sans-serif;
 }
+h2 {
+    border-bottom-color: #400124;
+    border-bottom-style: solid;
+}
 section {
     min-height: 200px;
     padding: 6% 0;
@@ -36,7 +40,6 @@ input[name="message"] {
     height: 100px;
     width: 300px;
 }
-
 .contactLinks {
     display: flex;
     flex-direction: row;
