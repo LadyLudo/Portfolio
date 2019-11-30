@@ -20,7 +20,7 @@ footer {
 }
 header {
     font-family: 'Proza Libre', sans-serif;
-    padding: 2% 0;
+    padding: 5% 0;
     justify-content: flex-end;
 }
 h2, h3 {
@@ -40,11 +40,12 @@ h2 {
 }
 section {
     min-height: 200px;
-    padding: 1% 0;
+    padding: 5% 0;
     background-color: #bbbbbb;
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
+    margin-top: 30px;
 
 }
 section:nth-child(even) {
@@ -88,6 +89,9 @@ li {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 #menu:hover {
     color: #f1f1f1;
@@ -203,6 +207,12 @@ form input {
     }
     .projectDescription {
         text-align: left;
+    }
+    section {
+        padding: 3%;
+    }
+    header {
+        padding: 3%;
     }
     /*#main {*/
     /*    transition: margin-left .5s;*/
