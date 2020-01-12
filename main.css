@@ -57,8 +57,8 @@ section:nth-child(even) {
     justify-content: center;
 }
 .screenshot {
-    height: 75%;
-    width: 75%;
+    height: 80%;
+    width: 65%;
     border: solid;
     flex-basis: 75%;
     flex-grow: 0;
