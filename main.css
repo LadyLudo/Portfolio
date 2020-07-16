@@ -209,6 +209,8 @@ textarea {
 
     .projectInfo {
          display: flex;
+         flex-direction: row;
+         margin-left: 30px;
     }
     .projectGrid {
         flex: 1;
@@ -219,7 +221,7 @@ textarea {
     #mailAddress {
         display: block;
     }
-    div:nth-child(even) .projectInfo {
+    .projectInfo:nth-child(4n) {
         flex-direction: row-reverse;
     }
     .projectDescription {
@@ -253,3 +255,7 @@ textarea {
         display: none;
     }
 }
+
+/* div:nth-child(even) .projectInfo {
+    flex-direction: row;
+} */
