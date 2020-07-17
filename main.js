@@ -15,11 +15,10 @@ function closeMenu () {
         $("#menu").show();
     })
 }
-function submitForm () {
-    $('form').submit(event=>{
-        event.preventDefault();
-        alert("Your message was recieved! I'll get back to you shortly");
-    })
-}
+// function submitForm () {
+//     $('form').submit(event=>{
+//         alert("Your message was recieved! I'll get back to you shortly");
+//     })
+// }
 closeMenu()
-submitForm()
+// submitForm()
