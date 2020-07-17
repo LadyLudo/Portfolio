@@ -1,17 +1,17 @@
 function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("myTopNav").style.height = "200px";
     // document.getElementById("main").style.marginLeft = "250px";
-    $('.sidenav').show();
+    $('.topnav').show();
     $("#menu").hide();
 }
 function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("myTopNav").style.height = "0";
     // document.getElementById("main").style.marginLeft = "0";
     $("#menu").show();
 }
 function closeMenu () {
-    $('.sidenav a').on("click", function(){
-        $('.sidenav').hide();
+    $('.topnav a').on("click", function(){
+        $('.topnav').hide();
         $("#menu").show();
     })
 }
