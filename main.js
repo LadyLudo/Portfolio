@@ -19,6 +19,13 @@ function closeMenu () {
 //     $('form').submit(event=>{
 //         alert("Your message was recieved! I'll get back to you shortly");
 //     })
-// }
+
 closeMenu()
-// submitForm()
+
+function validateForm () {
+    $('form').submit(event => {
+        if ($('name').value === null){
+            alert("Please enter a Contact Name")
+        }
+    })
+}
